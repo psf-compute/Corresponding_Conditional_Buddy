@@ -16,7 +16,7 @@ An argument is said to be valid whenever it's not possible for its premises to t
 </br>
 <h5>Logical Truth</h5>
 </br>
-A statement is a logical truth whenever it's impossible to be false. 
+A statement is a logical truth whenever it's impossible to be false. On a truth table, the statement has true in every row. 
 </br>
 <h5>Corresponding Conditionals</h5>
 </br>
