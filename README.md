@@ -1,4 +1,4 @@
-# Corresponding_Conditional_Buddy
+# Corresponding Conditional Buddy
 This program checks the validity or invalidity of every argument in propositional logic, by expoiting a feature of an argument's corresponding conditional.
 </br>
 
