@@ -67,7 +67,20 @@ Here are some tips to construct an argument's corresponding conditional.
 
 2. Notice that you're nesting a function. Start with the first premise. Then use the conjuction  operator, with everything you put for the first premise as it's first conjuction. Keep nesting things up until you've constructed the corresponding conditional.
 
-3. You can run the program to output each nested part, as it will output a well-formed formula, if you've made one. Otherwise, an error will occur.  
+3. You can run the program to output each nested part, as it will output a well-formed formula, if you've made one. Otherwise, an error will occur.
+
+4. Last, but not least, you can assign a lot of the code to different variables. 
+
+Example: using the code from above: Imp(Conj(Imp(Var("A"),Var("B")), Neg(Var("B"))), Neg(Var("A"))), we can simplify it like this:
+not_A = Neg(Var("A"))
+not_B = Neg(Var("B"))
+A = Var("A")
+B = Var("B")
+
+Imp(Conj(Imp(A, B), not_B), not_A)
+
+You could assign more parts of this, if you so desire.  
+
 
 <h2> Conclusion </h2>
 
