@@ -34,7 +34,8 @@ Basically, what my argument does is allow you to input the corresponding conditi
 In case your argument's corresponding conditional comes out false, then that establishes your argument's invalidity.
 
 <h4>How to use this Program </h4>
-So, lol, this might be a bit hard on the eyes, but it's doable. I'll walk you through it.<br>
+So, lol, this might be a bit hard on the eyes, but it's doable. I'll walk you through it.
+<br>
 
 First, make a set for your truth values for each of your variables. Make the one that would represent your conclusion false, but change them up for each iteration that you run the program. Here's an example: tv = {"A": False, "B": True}
 
