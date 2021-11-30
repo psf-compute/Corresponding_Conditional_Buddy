@@ -3,12 +3,12 @@ This program checks the validity or invalidity of every argument in propositiona
 </br>
 
 
-<h3>Quick Logic Refresher</h3>
-<h5>Conditionals</h5>
+<h2>Quick Logic Refresher</h2>
+<h4>Conditionals</h4>
 
 As you may know, in standand propositional logic, a conditional is true, either when its antecedent is false or when its consequent is true. Otherwise, it's false (i.e. when it's antecedent is true but its consequent is false). 
 
-<h5>Logical Validity</h5>
+<h4>Logical Validity</h4>
 
 An argument is said to be valid whenever it's not possible for its premises to true but its conclusion false.
 
@@ -16,7 +16,7 @@ An argument is said to be valid whenever it's not possible for its premises to t
 
 A statement is a logical truth whenever it's impossible to be false. On a truth table, the statement has true in every row. 
 
-<h4>Corresponding Conditionals</h5>
+<h4>Corresponding Conditionals</h4>
 
 Lastly, every argument has what's called a "corresponding conditional." If the argument is valid, it's corresponding conditional is a logical truth. Otherwise, it's not.
 
@@ -37,7 +37,11 @@ In case your argument's corresponding conditional comes out false, then that est
 
 So, lol, this might be a bit hard on the eyes, but it's doable. I'll walk you through it.
 
-First, make a set for your truth values for each of your variables. Make the one that would represent your conclusion false, but change them up for each iteration that you run the program. Here's an example: tv = {"A": False, "B": True}
+Preface: I'm going to assume that you're going to use IDLE for everything. 
+
+Firstly, open CorConPy.py in IDLE.
+
+Next, make a set for your truth values for each of your variables. Make the one that would represent your conclusion false, but change them up for each iteration that you run the program. Here's an example: tv = {"A": False, "B": True}
 
 Next, every statement variable you choose has to be put inside Var(). So, if your statement is "A", you'll put Var("A"). 
 
@@ -49,7 +53,9 @@ Next, to speed things up a bit, the same process applies to the other operators,
 
 Next, combine all of that to form an argument into its corresponding conditional. Keep track of the parentheses!
 
-<h4>How to use this Program </h4>
+Lastly, save an run it.
+
+<h2>How to use this Program </h2>
 
 Let's use a modus tollens again. Here's its corresponding conditional: ((A implies B) and not B) implies not A. 
 
@@ -63,14 +69,6 @@ Here are some tips to construct an argument's corresponding conditional.
 
 3. You can run the program to output each nested part, as it will output a well-formed formula, if you've made one. Otherwise, an error will occur.  
 
+<h2> Conclusion </h2>
 
-
-
-
-
-
-
-
-
-
-  
+That's basically it. Enjoy!
