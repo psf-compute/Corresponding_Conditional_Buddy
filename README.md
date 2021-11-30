@@ -33,7 +33,7 @@ Basically, what my argument does is allow you to input the corresponding conditi
 </br>
 In case your argument's corresponding conditional comes out false, then that establishes your argument's invalidity.
 
-<h5>How to use this Program </h5>
+<h4>How to use this Program </h4>
 So, lol, this might be a bit hard on the eyes, but it's doable. I'll walk you through it. 
 
 First, make a set for your truth values for each of your variables. Make the one that would represent your conclusion false, but change them up for each iteration that you run the program. Here's an example: tv = {"A": False, "B": True}
@@ -44,7 +44,28 @@ Next, let's try negation. It's a unary operator, so it takes only one input (tec
 
 Next, let's try disjunction. It's a binary operator, so it takes two inputs. To say A and B, you'll put Conj(Var("A"),Var("B")).
 
-Next, to speed things up a bit, the same process applies to the other operators. 
+Next, to speed things up a bit, the same process applies to the other operators, since they're all binary operators. The only thing that changes, obviously, is the function name for the operator. For implications/conditionals use Imp, for conjunctions use Conj, and for biconditionals use Bic. 
+
+Next, combine all of that to form an argument into its corresponding conditional. Keep track of the parentheses!
+
+<h4>How to use this Program </h4>
+
+Let's use a modus tollens again. Here's its corresponding conditional: ((A implies B) and not B) implies not A. 
+
+Here's how it would look like in this program: Imp(Conj(Imp(Var("A"),Var("B")), Neg(Var("B"))), Neg(Var("A")))
+
+Here are some tips to construct an argument's corresponding conditional. 
+
+1. Count the number of left and right parenthesis; if the number is equal, then you probably won't throw a parenthesis error; otherwise, you will.
+
+2. Notice that you're nesting a function. Start with the first premise. Then use the conjuction  operator, with everything you put for the first premise as it's first conjuction. Keep nesting things up until you've constructed the corresponding conditional.
+
+3. You can run the program to output each nested part, as it will output a well-formed formula, if you've made one. Otherwise, an error will occur.  
+
+
+
+
+
 
 
 
