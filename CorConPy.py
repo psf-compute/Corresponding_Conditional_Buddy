@@ -99,6 +99,6 @@ y = x.eval(tv)
 print(y)
 
 if y:
-   print("Your argument is valid.")
+   print("Your argument may be valid.")
 else:
    print("Your argument is invalid.")
