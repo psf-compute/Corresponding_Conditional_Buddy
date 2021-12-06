@@ -41,7 +41,7 @@ Preface: I'm going to assume that you're going to use IDLE for everything.
 
 Firstly, open CorConPy.py in IDLE.
 
-Next, make a set for your truth values for each of your variables. Make the one that would represent your conclusion false, but change them up for each iteration that you run the program. Here's an example: tv = {"A": False, "B": True}
+Next, make a set for your truth values for each of your variables (one set is already provided for you, which you can add to). Make the one that would represent your conclusion false, but change them up for each iteration that you run the program, but in a way that doesn't make the corresponding conditional trivially true (e.g. false antecedent or a true consequent). Here's an example: tv = {"A": True, "B": False}
 
 Next, every statement variable you choose has to be put inside Var(). So, if your statement is "A", you'll put Var("A"). 
 
@@ -55,7 +55,12 @@ Next, combine all of that to form an argument into its corresponding conditional
 
 Lastly, save an run it.
 
-<h2> Tips on how to use this Program </h2>
+Note 1: if your argument is a proof of a theorem, everything would still work the same. You’ll take the first step of the proof as the antecedent and the final step as the consequent (regardless of whether it's a conditional proof or a reductio ad absurdum). 
+
+Note 2: to check an argument that has a single premise and concludes with the same premise again, as with the reiteration rule (so that your argument’s corresponding conditional is represented by p implies p, where p represents any variable statement), since you can’t try to make the antecedent true and the consequent false (since there's just going to be one statement in the truth value set), you can know that all such cases are going to be valid, without running the program :D .
+
+
+<h4> Tips on how to use this Program </h4>
 
 Let's use a modus tollens again. Here's its corresponding conditional: ((A implies B) and not B) implies not A. 
 
