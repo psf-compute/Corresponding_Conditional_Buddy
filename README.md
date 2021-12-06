@@ -55,7 +55,7 @@ Next, combine all of that to form an argument into its corresponding conditional
 
 Lastly, save an run it.
 
-<h2>How to use this Program </h2>
+<h2> Tips on how to use this Program </h2>
 
 Let's use a modus tollens again. Here's its corresponding conditional: ((A implies B) and not B) implies not A. 
 
