@@ -81,23 +81,6 @@ Imp(Conj(Imp(A, B), not_B), not_A)
 
 You could assign more parts of this, if you so desire.  
 
-<h2>How to Use This Program using IDLE</h2>
-
-Step 1. Save the program anywhere in your filesystem.
-
-Step 2. Open IDLE and then, at the top, go to File, Open, and then go to where you saved the program, and then select it.
-
-Step 3. At the bottom, under the comment that starts with "# reproduce your argument here" type out your argument's corresponding conditional, as per the grammatical structure above. 
-
-Step 4. Change the truth values in the tv set. Consider, for example, setting the variable that represents your conclusion as False. 
-
-Step 5. Press Run at the top. 
-
-Step 6. If the syntax is correct, you should get a “your argument may be valid” or “your argument is invalid” as the output.  
-
-Step 7: Repeat steps 4 to 7. If you get an invalid, that determines that your argument is invalid and you may stop using the program. Until you exhaust all possible truth values for each variable, and if they call come out as “your argument may be valid” you’ll know that the argument is actually valid. 
-
-
 <h2> Conclusion </h2>
 
 That's basically it. Enjoy!
