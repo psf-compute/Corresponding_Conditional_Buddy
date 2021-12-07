@@ -3,6 +3,10 @@ This program checks the validity or invalidity of every argument in propositiona
 </br>
 
 
+<h2>About this Program</h2>
+
+This program, written in Python, uses a binary tree data structure to evaluate propositional argument's corresponding conditional. 
+
 <h2>Quick Logic Refresher</h2>
 <h4>Conditionals</h4>
 
